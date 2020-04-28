@@ -56,7 +56,7 @@ class RadioTest {
     public void previousChannelFromMin() {
         Radio radio = new Radio(0,80,90,9,20,9);
         radio.decreaseChannal();
-        assertEquals(90, radio.getCurrentChannal());
+        assertEquals(19, radio.getCurrentChannal());
     }
 
     @Test
