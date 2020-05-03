@@ -60,7 +60,7 @@ class RadioTest {
     }
 
     @Test
-    public void SetDesiredChannel() {
+    public void setDesiredChannel() {
         Radio radio = new Radio();
         radio.setCurrentChannal(5);
         assertEquals(5, radio.getCurrentChannal());
